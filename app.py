@@ -1,6 +1,8 @@
 import streamlit as st
 from google import genai
+import google.genai
 
+st.write("Google GenAI SDK:", google.genai.__version__)
 # -----------------------------
 # Page configuration
 # -----------------------------
